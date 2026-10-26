@@ -1177,7 +1177,7 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
   EmissionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 4
     rateOverTime:
       serializedVersion: 2
@@ -5786,6 +5786,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1653722283}
+  - component: {fileID: 1653722286}
   - component: {fileID: 1653722285}
   - component: {fileID: 1653722284}
   m_Layer: 0
@@ -5860,6 +5861,19 @@ MonoBehaviour:
   controlPitchFactor: 18
   controlRollFactor: 20
   rotationSpeed: 5
+--- !u!114 &1653722286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653722282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceae7fe0bcd33ca4bac43d670127ca05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerWeapon
+  laser: {fileID: 250658729}
 --- !u!1 &2067669528
 GameObject:
   m_ObjectHideFlags: 0
